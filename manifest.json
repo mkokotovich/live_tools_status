@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "Live Tools Status",
+  "description": "Displays tool status live, without having to visit the status page",
+  "version": "0.0.1",
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+
+"icons": { "16": "live_tools_status_16.ico",
+           "32": "live_tools_status_32.ico",
+           "48": "live_tools_status_48.ico",
+           "128": "live_tools_status_128.ico",
+           "256": "live_tools_status_256.ico" },
+
+  "permissions": [
+    "<all_urls>","webRequest","webRequestBlocking", "tabs"
+  ]
+}
