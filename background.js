@@ -62,6 +62,10 @@ function queryIfToolIsUp(current_url) {
                         statusNormal = false;
                     }
                 }
+                // Uncomment for testing
+                //if (name == "Etrack") {
+                //    statusNormal = false;
+                //}
                 console.log(name + ": " + statusNormal);
                 if (statusNormal == false) {
                     var downName = name;
